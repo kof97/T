@@ -15,7 +15,7 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/kof97/Server-Framework"
+            "url": "https://github.com/kof97/PHP-coroutine-control"
         },
         {
             "packagist": false
