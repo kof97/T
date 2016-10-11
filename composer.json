@@ -3,7 +3,7 @@
     "description": "The unittest tools to run api",
     "keywords": ["tools", "test", "unittest"],
     "type": "item",
-    "version": "1.1.3",
+    "version": "1.1.4",
     "license": "Apache License 2.0",
     "authors": [
         {
@@ -20,6 +20,6 @@
     ],
     "require-all": true,
     "require": {
-        "abandon": "*"
+        "tsa/tsa-php-sdk": "*"
     }
 }
