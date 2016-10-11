@@ -3,7 +3,7 @@
     "description": "The unittest tools to run api",
     "keywords": ["tools", "test", "unittest"],
     "type": "item",
-    "version": "1.1.2",
+    "version": "1.1.3",
     "license": "Apache License 2.0",
     "authors": [
         {
@@ -15,8 +15,11 @@
     "repositories": [
         {
             "type": "vcs",
-            "url": "https://github.com/kof97/PHP-coroutine-control"
+            "url": "https://github.com/kof97/abandon"
         }
     ],
-    "require-all": true
+    "require-all": true,
+    "require": {
+        "abandon": "*"
+    }
 }
