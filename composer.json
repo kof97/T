@@ -1,0 +1,27 @@
+{
+    "name": "coroutine/php-coroutine-control",
+    "description": "The php coroutine control",
+    "keywords": ["coroutine", "server"],
+    "type": "library",
+    "license": "MIT",
+
+    "authors": [
+        {
+            "name": "Arno",
+            "email": "1048434786@qq.com"
+        }
+    ],
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/username/hello-world"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "psr/log": "^1.0.1"
+    },
+    "autoload": {
+        "psr-4": {"Coroutine\\": "lib/Coroutine"}
+    }
+}
