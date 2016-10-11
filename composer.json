@@ -1,27 +1,19 @@
 {
-    "name": "coroutine/php-coroutine-control",
-    "description": "The php coroutine control",
-    "keywords": ["coroutine", "server"],
-    "type": "library",
-    "license": "MIT",
-
+    "name": "tsa/unittest-tools",
+    "description": "The unittest tools to run api",
+    "keywords": ["tools", "test", "unittest"],
+    "type": "item",
+    "version": "0.0.2",
+    "license": "Apache License 2.0",
     "authors": [
         {
             "name": "Arno",
-            "email": "1048434786@qq.com"
-        }
-    ],
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/username/hello-world"
+            "email": "1048434786@qq.com",
+            "role": "leader"
         }
     ],
     "require": {
-        "php": ">=5.4.0",
-        "psr/log": "^1.0.1"
-    },
-    "autoload": {
-        "psr-4": {"Coroutine\\": "lib/Coroutine"}
+        "php": ">=5.3.0",
+        "phpunit/phpunit": "~4.8",
     }
 }
